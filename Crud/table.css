@@ -1,0 +1,6 @@
+
+
+.table-bordered>tbody>tr>th{
+	border:1px solid #ddd;
+	text-align:center;
+}

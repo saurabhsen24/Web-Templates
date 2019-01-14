@@ -1,0 +1,57 @@
+@font-face {
+  src : url('../customfonts/Catamaran-Tamil-master/Fonts/Catamaran-Thin.ttf');
+  font-family: catamaran-thin;
+}
+
+
+#contact{
+  background: linear-gradient(#fdcc52,#fdc539);
+}
+
+.mycontact h2{
+  font-size: 3.5em;
+   font-family : catamaran-thin;
+   margin-top: 1em;
+}
+
+.mycontact h2 i{
+  color : #dd4b39;
+}
+
+.social-media{
+   list-style: none;
+   display: inline-block;
+}
+
+.social-media li{
+   float : left;
+   color: #fff;
+   border-radius: 50%;
+   font-size: 3em;
+   margin-left: 10px;
+}
+
+.tw{
+  background-color:#007bff;
+  padding: 0.5em 0.8em;
+}
+
+.fb{
+    background-color:#0056b3;
+    padding: 0.5em 0.85em;
+}
+
+.gp{
+    background-color:#dd4b39;
+    padding: 0.5em 0.5em;
+}
+
+@media only screen and (max-width : 457px){
+  .social-media li{
+    font-size: 2em;
+  }
+
+  .social-media{
+    margin-left: -4em;
+  }
+}

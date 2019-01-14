@@ -1,0 +1,595 @@
+@font-face{
+  font-family:'Roboto Slab';
+  src:url("../roboto-slab/RobotoSlab-Regular.ttf");
+}
+
+
+.navbar{	
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a{
+	background-color: transparent;
+	color:#333;
+}
+
+ .navbar-default .navbar-nav>.active>a:hover {
+	background-color: transparent;
+	color:#333;
+}
+
+
+.navbar-default{
+   border-color: transparent;
+}
+
+.navbar-brand{
+	text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Roboto Slab", serif;
+    letter-spacing: 0.1em;
+}
+
+.navbar>.container .navbar-brand{
+	color:#4fbfa8;
+}
+
+.navbar-default .navbar-brand:hover {
+    color:#348e7b;
+}
+
+.padLR{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.marLR{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.myhome{
+	background-image: url("../image/home.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:100%;
+	height:100%;
+}
+
+.myimg{
+	width : 200px;
+	height : 200px;
+    margin : 0 auto;
+	margin-top : 5em;
+}
+
+.mytext{
+	text-shadow:0 1px 2px rgba(0,0,0,0.6);
+	color:#fff;
+	font-family: "Roboto Slab",serif;
+	padding-top: 3em;
+	font-weight: 700;
+}
+
+.mytext h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.mytext h3{
+    font-size: 40px;
+}
+
+.mytext1{
+  font-family: "Roboto Slab",serif;
+  font-weight: 500;
+  border-bottom: solid 1px #ccc;
+  border-top: solid 1px #ccc;
+  color:#555;
+  font-size:60px;
+     width: 30%;
+    margin: 0 auto;   	
+}
+
+@media only screen and (max-width : 681px){
+	.mytext1 {
+    font-family: "Roboto Slab",serif;
+    font-weight: 500;
+    border-bottom: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    color: #555;
+    font-size: 60px;
+    width: 53%;
+    margin: 0 auto;
+}
+}
+
+.about{
+  padding-top: 4em;	
+}
+
+
+.mypara{
+   font-family: "Roboto Slab",serif;
+   color:#555;	
+ padding-top: 4em;	
+ font-size: 16px;  
+}
+
+.myprogress{
+	padding-top: 3em;
+    font-family: "Roboto Slab",serif;	
+     color:#555;
+     animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count:1;
+}
+
+.myImg{
+	height:auto;
+	width:50%;
+	border-radius: 50%;
+	padding: 4em;
+}
+
+@media only screen and (max-width:450px){
+   .myImg{
+	  height:auto;
+	  width:70%;
+	  border-radius: 50%;
+	  padding: 4em;
+    }	
+}
+
+
+#services{
+	background: linear-gradient(to bottom, #4fbfa8, #74cdba)!important;
+	width:100%;
+	 font-family: "Roboto Slab",serif;
+	height:auto;
+}
+
+.myservice{
+	padding:4em 0em;
+}
+
+.myservice h4{
+   font-family: "Roboto Slab",serif;
+  font-weight: 100;
+  border-bottom: 1px solid #ccc;
+  border-top:1px solid #ccc;
+  color:#fff;
+  font-size:60px;
+  width: 27%;
+  margin: 0 auto;
+ }
+
+ @media only screen and (min-width:730px) and (max-width:992px){
+   .myservice h4{
+      font-family: "Roboto Slab",serif;
+      font-weight: 100;
+      border-bottom: 1px solid #ccc;
+      border-top:1px solid #ccc;
+      color:#fff;
+      font-size:60px;
+      width: 42%;
+      margin: 0 auto;
+    }	 
+ }
+ 
+ 
+ @media only screen and (min-width:418px) and (max-width:460px){
+   .myservice h4{
+      font-family: "Roboto Slab",serif;
+      font-weight: 100;
+      border-bottom: 1px solid #ccc;
+      border-top:1px solid #ccc;
+      color:#fff;
+      font-size:60px;
+      width: 80%;
+      margin: 0 auto;
+    }	 
+ }
+ 
+ @media only screen and (max-width : 1000px){
+   .myservice h4{
+      font-family: "Roboto Slab",serif;
+      font-weight: 100;
+      border-bottom: 1px solid #ccc;
+      border-top:1px solid #ccc;
+      color:#fff;
+      font-size:60px;
+      width: 44%;
+      margin: 0 auto;
+    }	 
+ }
+  @media only screen and (min-width:461px) and (max-width:505px){
+   .myservice h4{
+      font-family: "Roboto Slab",serif;
+      font-weight: 100;
+      border-bottom: 1px solid #ccc;
+      border-top:1px solid #ccc;
+      color:#fff;
+      font-size:60px;
+      width: 70%;
+      margin: 0 auto;
+    }	 
+ }
+ 
+  
+  @media only screen and (min-width:506px) and (max-width:705px){
+   .myservice h4{
+      font-family: "Roboto Slab",serif;
+      font-weight: 100;
+      border-bottom: 1px solid #ccc;
+      border-top:1px solid #ccc;
+      color:#fff;
+      font-size:60px;
+      width: 65%;
+      margin: 0 auto;
+    }	 
+ }
+.myicon{
+	font-size: 6em;
+	color: #fff;
+	text-shadow: 5px 5px 0 #3aa18c;
+}
+
+.icon h5{
+    font-size: 2em;
+    color: #fff;
+}
+
+.icon p{
+	color: #fff;
+}
+
+.endtext p{
+	font-size:1.5em;
+	font-weight:100;
+}
+
+.btn{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: .45em .75em;
+}
+
+.btn-outline-light{
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f8f9fa;	
+}
+
+.btn-outline-light:hover{
+	background-color: #fff;
+	color:#000;
+}
+
+#customers{
+background-color: #f5f5f5;
+}
+
+.cust h2{
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid #ccc;
+    width: 32%; 
+    margin: 0 auto;
+    font-family: "Roboto Slab",serif;	
+   padding: 0.5em;
+   margin-top: 1em;
+}
+
+@media only screen and (max-width : 590px){
+  .cust h2{
+     border-bottom: 2px solid #ccc;
+     border-top: 2px solid #ccc;
+     width: 52%; 
+     margin: 0 auto;
+     font-family: "Roboto Slab",serif;	
+     padding: 0.5em;
+     margin-top: 1em;
+  }	
+}
+
+@media only screen and (min-width:591px) and (max-width : 1000px){
+  .cust h2{
+     border-bottom: 2px solid #ccc;
+     border-top: 2px solid #ccc;
+     width: 50%; 
+     margin: 0 auto;
+     font-family: "Roboto Slab",serif;	
+     padding: 0.5em;
+     margin-top: 1em;
+  }		
+}
+
+@media only screen and (min-width:1000px){
+  .cust h2{
+     border-bottom: 2px solid #ccc;
+     border-top: 2px solid #ccc;
+     width: 30%; 
+     margin: 0 auto;
+     font-family: "Roboto Slab",serif;	
+     padding: 0.5em;
+     margin-top: 1em;
+  }	
+}
+
+.cust-p{
+	padding-top: 2em;
+    font-family: "Roboto Slab",serif;	
+	font-size: 1.4375em;
+    font-weight: 300;
+    color: #555;
+}
+
+
+#info{
+	background-image:url("../image/parallax.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	height:auto;	
+}
+
+ 
+ .icons i{
+	 color:#fff;
+	 border:1px solid #fff;
+	 border-radius:50%;
+	 padding:1em;
+	 font-size: 20px;
+margin-top:1em;	 
+ }
+ 
+ .icons h5{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 20px!important;
+	color:#fff;
+}
+
+.icons p{
+	font-size:3em;
+	padding-top:0.5em;
+	padding-bottom:0;
+	font-weight:100;
+	color:#fff;
+}
+
+#work{padding: 4em 0em;}
+
+.mywork h3{
+	text-transform:uppercase;
+    font-family: "Roboto Slab",serif;
+    border-bottom:1px solid #ccc;
+    border-top:1px solid #ccc;
+    margin:0 auto;
+	width:30%;
+    margin-top:2em;	
+	font-size:3em;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+@media only screen and (min-width : 601px) and (max-width : 975px){
+  .mywork h3{
+	text-transform:uppercase;
+    font-family: "Roboto Slab",serif;
+    border-bottom:1px solid #ccc;
+    border-top:1px solid #ccc;
+    margin:0 auto;
+	width:45%;
+    margin-top:2em;	
+	font-size:3em;
+	padding-top:10px;
+	padding-bottom:10px;
+  }	
+}
+
+@media only screen and (min-width:418px) and (max-width : 600px){
+  .mywork h3{
+	text-transform:uppercase;
+    font-family: "Roboto Slab",serif;
+    border-bottom:1px solid #ccc;
+    border-top:1px solid #ccc;
+    margin:0 auto;
+	width:60%;
+    margin-top:2em;	
+	font-size:3em;
+	padding-top:10px;
+	padding-bottom:10px;
+  }	
+}
+
+
+.mywords p{
+	    font-family: "Roboto Slab",serif;
+	    font-size:2em;
+	    padding-top:1em;		
+}
+
+.mylist{
+	display:inline-block;
+	font-family: "Roboto Slab",serif;	
+	background: #4fbfa8;
+	color:#fff;
+	margin-left:1em;
+}
+
+.mylist1{
+    display:inline-block;
+	border-bottom:1px solid #4fbfa8;
+    border-top:1px solid #4fbfa8;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+	font-family: "Roboto Slab",serif;
+	margin-left:2em;	
+    color:#4fbfa8;
+	margin-top : 10px;
+    background:#fff; 	
+}
+
+.mylist1:hover{
+	display:inline-block;
+	font-family: "Roboto Slab",serif;	
+	background: #4fbfa8;
+	color:#fff;
+	margin-left:1em;
+	margin-left:2em;	
+    transition:all 0.3s;	
+}
+
+.portfolio{
+	padding-top:2em;
+}
+
+.portfolio:hover{
+	position:relative;
+	transform:scale(1.2);
+	transition:all 2s ease;
+    overflow:hidden;	
+}
+
+.logos{
+	background:#8e8a8a! important;
+}
+
+.logo{
+	width : 100px;
+	height : 100px;
+	padding : 1em;
+	margin : 0 auto;
+}
+
+.martop{
+	margin-top:6em;
+}
+
+.martop1{
+	margin-top:4em;
+}
+
+.martop2{
+	margin-top:2em;
+}
+
+.btn{
+    background-color: transparent;
+    background-image: none;	
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #4fbfa8;
+    border-color: #fff;	
+}
+
+.form-group:focus{
+	color: #495057;
+    background-color: #fff;
+    border-color: #ade1d6;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(79,191,168,0.25);
+	
+}
+
+.pad{
+color:#555;	
+padding-top:20em;
+padding-bottom:11em;
+font-family:"Roboto Slab",serif;
+}
+
+.p1{
+	color:#999;
+font-family:"Roboto Slab",serif;
+font-size:20px;
+padding:1em 0.5em;	
+}
+.faaa {
+    color:#4fbfa8;
+    font-size: 2em;
+}
+.article-heading h5 {
+    margin-top: 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ .article-heading{   float: right;
+    width: 80%;
+}
+.name-picture{ width: 40%;
+    float: right;
+}
+.article-pic{
+    width: 100%;
+    border-radius: 50%;
+}
+.article-head{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.bg{
+	background:#fff;
+}
+
+#footer{
+	background:#222;
+	padding:60px 0;
+}
+
+.myicon-class{
+	float:left;
+	border-radius:50%!important;
+	margin-left:1em;
+	margin-top:-40px;
+    color:#fff!important;
+	font-size:20px;
+}
+
+
+.myicon-class1{
+	background:#0056b3;
+	border:1px solid #0056b3; 
+}
+
+.myicon-class1:hover{
+	background:#0056b3!important;
+}
+
+.myicon-class2{
+background:#e83e8c;
+border:1px solid #e83e8c;
+}
+
+.myicon-class2:hover{
+	background:#e83e8c!important;
+}
+
+.myicon-class3{
+	background:#dc3545;
+	border:1px solid #dc3545; 
+}
+
+.myicon-class3:hover{
+	background:#dc3545!important;
+}
+
+.myicon-class4{
+	background:#28a745;
+	border:1px solid #28a745; 
+}
+
+.myicon-class4:hover{
+	background:#28a745!important;
+}
+
+
+
+

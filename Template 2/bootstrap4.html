@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script>	
+
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/bootstrap4.css">
+</head>
+
+   	<script>
+            $(document).ready(function() {
+              var owl = $('#customers  .owl-carousel');
+              owl.owlCarousel({
+                margin: 10,
+                nav: true,
+                loop: true,
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  600: {
+                    items: 2
+                  },
+                  1000: {
+                    items: 4
+                  }
+                }
+              })
+			  
+			  $("#home").mouseover(function(){
+			     $(".myimg").addClass("animated fadeInDown");
+				 $("h1").addClass("animated fadeInDown");
+			  }).mouseleave(function(){
+			     $(".myimg").removeClass("animated fadeInDown");
+				 $("h1").removeClass("animated fadeInDown");
+			  });
+            
+			
+			$("#about-me").mouseover(function(){
+			  $(".mytext1").addClass("animated fadeInDown");
+			  $(".mypara").addClass("animated fadeInUp");
+			  $(".myprogress").addClass("animated fadeInUp");
+			  $(".mypic").addClass("animated rotateIn");
+			}).mouseleave(function(){
+			  $(".mytext1").removeClass("animated fadeInDown");
+			  $(".mypara").removeClass("animated fadeInUp");
+			  $(".myprogress").removeClass("animated fadeInUp");
+			  $(".mypic").removeClass("animated rotateIn");
+			});
+			
+			$("#services").mouseover(function(){
+			  $(".mydiv").addClass("animated fadeInUp");
+			}).mouseleave(function(){
+			  $(".mydiv").removeClass("animated fadeInUp");
+			});
+			
+			})
+			
+    </script>
+<body>
+
+<section id="intro">	
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">it worker</a>
+    </div>
+	<div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">INTRO</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">SERVICES</a></li>
+      <li><a href="#">TESTIMONIALS</a></li>
+      <li><a href="#">MY WORK</a></li>
+      <li><a href="#">CLIENTS</a></li>
+      <li><a href="#">CONTACT</a></li>	  
+    </ul>
+	</div>
+  </div>
+</nav>
+</section>
+
+<section id="home">
+   <div class="container-fluid padLR">
+   	  	<div class="myhome text-center">
+		   <div class = "myimg">
+   	  		<img class="animated fadeInDown" src="image/logo-big.png" width = "100%" height = "100%">
+		   </div>	
+   	  		<div class="mytext container">
+   	  			<h1 class="myh1 animated fadeInDown">Hello, hola, नमस्ते !</h1>
+   	  			<h3>I grind HTML and CSS and then weld them with PHP into beautiful and efficient websites.</h3>
+   	  		</div>
+   	  	</div>
+   </div>
+</section>
+
+<section id="about-me">
+  <div class="container text-center">
+  	<div class="about">
+  	 <h2 class="mytext1 animated fadeInDown">ABOUT ME</h2>
+  	 <div class="col-md-6 text-left">
+  	 	<div class="mypara animated fadeInUp">
+  	 	<p >An sincerity so extremity he additions. Her yet <strong>there truth merit</strong>. Mrs all projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly. Off can admiration prosperous now devonshire diminution law.</p>
+  	 	<p style="padding-top: 1em;">Received overcame oh sensible so at an. Formed do change merely to county it. <strong>Am separate contempt</strong> domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.</p>
+  	 	<p style="padding-top: 1em;">Received overcame oh sensible so at an. Formed do change merely to county it. <strong>Am separate contempt</strong> domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.</p>
+        </div> 
+  	 </div>
+  	 <div class="col-md-6 text-left">
+  	 	<div class="myprogress animated fadeInUp">
+  	 	<h3>HTML5</h3>	
+		<div class="progress">
+		  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+		  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:98%">
+		    98% Complete (success)
+		  </div>
+		</div>
+		<h3>CSS3</h3>
+		<div class="progress">
+		  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+		  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:92%">
+		    92% Complete (success)
+		  </div>
+		</div>
+		<h3>JAVASCRIPT</h3>
+		<div class="progress">
+		  <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+		  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:99%">
+		    99% Complete (success)
+		  </div>
+		</div>
+		<h3>PHP</h3>
+		<div class="progress">
+		  <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+		  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+		    100% Complete (success)
+		  </div>
+		</div>
+		<h3>BOOTSTRAP3</h3>
+		<div class="progress">
+		  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+		  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:98%">
+		    98% Complete (success)
+		  </div>
+		</div>
+  	 	</div>
+  	 </div>
+  	</div>
+  </div>
+  <div class="container text-center">
+  	<div class="mypic animated rotateIn">
+  		<img src="image/about1.jpg" class="myImg">
+  	</div>
+  </div>
+</section>
+
+<section id="services">
+	<div class="container text-center">
+		<div class="myservice">
+		    <h4>SERVICES</h4>
+	    </div>
+	    <div class="icon">
+	    	<div class="col-md-4">
+	    		<div clas="icon-1 text-center">
+	    			<div class="mydiv animated fadeInDown">
+	    	       <i class="fa fa-search myicon" aria-hidden="true"></i>
+	    	       <h5>Consulting</h5>
+	    	       <p>On on produce colonel pointed. Just four sold need over how any. In to september suspicion determine he prevailed admitting. On adapted an as affixed limited on. Giving cousin warmly things no spring mr be abroad. Relation breeding be as repeated strictly followed margaret. One gravity son brought shyness waiting regular led ham.</p>
+	    	      </div>
+	    	   </div>
+	    	</div>  
+	    	<div class="col-md-4">
+	    		<div clas="icon-1 text-center">
+	    			<div class="mydiv animated fadeInUp">
+	    	       <i class="fa fa-html5 myicon" aria-hidden="true"></i></i>
+	    	       <h5>HTML coding</h5>
+	    	       <p>Manor we shall merit by chief wound no or would. Oh towards between subject passage sending mention or it. Sight happy do burst fruit to woody begin at. Assurance perpetual he in oh determine as.</p>
+	    	       </div>
+	    	   </div>
+	    	</div>  
+	    	<div class="col-md-4">
+	    		<div clas="icon-1 text-center">
+	    			<div class="mydiv animated fadeInDown">
+	    	       <i class="fa fa-tachometer myicon" aria-hidden="true"></i></i>
+	    	       <h5>PHP webdelopment</h5>
+	    	       <p>Rooms oh fully taken by worse do. Points afraid but may end law lasted. Was out laughter raptures returned outweigh. Luckily cheered colonel me do we attacks on highest enabled. Tried law yet style child. Bore of true of no be deal.</p>
+	    	   </div>
+	    	</div>
+	    	</div>
+	    	<div class="col-md-12">
+	    		<div class="endtext animated fadeInRight">
+	    		   <hr>
+	    		   <p>Would you like to know more or just discuss something?</p>
+	    		   <p><a href="#contact" class="btn btn-outline-light link-scroll">Contact me</a></p>
+	    	   </div>
+	    	</div>  	    		    	
+	    </div>
+	</div>
+</section>
+
+<section id="customers">
+	<div class="container text-center">
+		<div class="cust">
+			<h2>MY CUSTOMERS SAID ABOUT ME</h2>
+		</div>
+		<div class="cust-p">
+			<p>I am always glad to hear that my customers leave satisfied. Some of them shared with you their insights on our cooperation.
+			</p>
+		</div>	
+		<div class="owl-carousel owl-theme">
+			<div class="item">
+					<div class="col-lg-12 text-left bg">
+					<div class="article">
+					<div class="article-content">
+					<p class="p1">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+					<div class="cont-article pad">
+					 <i class="fa fa-quote-left faaa"></i>
+									<div class="article-heading">
+									<div class="article-head">
+									  <h5>John McIntyre</h5>
+									  <p>CEO, TransTech</p>
+										 </div>
+										<div class="name-picture">	<img class="article-pic" src="image/person-1.jpg">
+									</div>
+									</div>
+									</div>
+								  </div>
+								  </div>
+					</div>			
+			</div>
+			<div class="item">
+					<div class="col-lg-12 text-left bg">
+					<div class="article">
+					<div class="article-content">
+					<p class="p1">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+					<div class="cont-article pad">
+					 <i class="fa fa-quote-left faaa"></i>
+									<div class="article-heading">
+									<div class="article-head">
+									  <h5>John McIntyre</h5>
+									  <p>CEO, TransTech</p>
+										 </div>
+										<div class="name-picture">	<img class="article-pic" src="image/person-2.jpg">
+									</div>
+									</div>
+									</div>
+								  </div>
+								  </div>
+					</div>			
+			</div>
+			<div class="item">
+					<div class="col-lg-12 text-left bg">
+					<div class="article">
+					<div class="article-content">
+					<p class="p1">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+					<div class="cont-article pad">
+					 <i class="fa fa-quote-left faaa"></i>
+									<div class="article-heading">
+									<div class="article-head">
+									  <h5>John McIntyre</h5>
+									  <p>CEO, TransTech</p>
+										 </div>
+										<div class="name-picture">	<img class="article-pic" src="image/person-3.jpg">
+									</div>
+									</div>
+									</div>
+								  </div>
+								  </div>
+					</div>			
+			</div>
+			<div class="item">
+					<div class="col-lg-12 text-left bg">
+					<div class="article">
+					<div class="article-content ">
+					<p class="p1">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+					<div class="cont-article pad">
+					 <i class="fa fa-quote-left faaa"></i>
+									<div class="article-heading">
+									<div class="article-head">
+									  <h5>John McIntyre</h5>
+									  <p>CEO, TransTech</p>
+										 </div>
+										<div class="name-picture">	<img class="article-pic" src="image/person-4.jpg">
+									</div>
+									</div>
+									</div>
+								  </div>
+								  </div>
+					</div>			
+			</div>
+			<div class="item">
+					<div class="col-lg-12 text-left bg">
+					<div class="article">
+					<div class="article-content">
+					<p class="p1">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+					<div class="cont-article pad">
+					 <i class="fa fa-quote-left faaa"></i>
+									<div class="article-heading">
+									<div class="article-head">
+									  <h5>John McIntyre</h5>
+									  <p>CEO, TransTech</p>
+										 </div>
+										<div class="name-picture">	<img class="article-pic" src="image/person-4.jpg">
+									</div>
+									</div>
+									</div>
+								  </div>
+								  </div>
+					</div>			
+			</div>
+			<div class="item">
+					<div class="col-lg-12 text-left bg">
+					<div class="article">
+					<div class="article-content">
+					<p class="p1">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+					<div class="cont-article pad">
+					 <i class="fa fa-quote-left faaa"></i>
+									<div class="article-heading">
+									<div class="article-head">
+									  <h5>John McIntyre</h5>
+									  <p>CEO, TransTech</p>
+										 </div>
+										<div class="name-picture">	<img class="article-pic" src="image/person-1.jpg">
+									</div>
+									</div>
+									</div>
+								  </div>
+								  </div>
+					</div>			
+			</div>			
+		</div>
+		
+	</div>
+</section>
+
+<section id="info">
+<div class="container text-center">
+		<div class="col-md-3">
+			<div class="icons">
+				<i class="fa fa-align-justify" aria-hidden="true"></i>
+				<p>120</p>
+				<h5> Websites</h5>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="icons">
+                <i class="fa fa-users" aria-hidden="true"></i>
+				<p>50</p>
+				<h5>satisfied clients</h5>
+			</div>
+		</div>	
+		<div class="col-md-3">
+			<div class="icons">
+				<i class="fa fa-copy" aria-hidden="true"></i>
+				<p>320</p>
+				<h5>projects</h5>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="icons">
+				<i class="fa fa-font" aria-hidden="true"></i>
+				<p class="counter">333</p>
+				<h5 class="text">magazines and brochures</h5>
+			</div>
+		</div>		
+</div>
+</section>
+
+<section id="work">
+<div class="container">
+	<div class="col-md-12 text-center">
+       <div class="mywork">
+	      <h3>my work</h3>
+       </div>
+	   <div class="mywords">
+	      <p>I have worked on dozens of projects so I have picked only the latest for you.</p>
+	   </div>
+	   <div class="menu">
+		  <ul class="list-group">
+			  <li class="list-group-item mylist">All</li>
+			  <li class="list-group-item mylist1">Webdesign</li>
+			  <li class="list-group-item mylist1">SEO</li>
+			  <li class="list-group-item mylist1">Marketing</li>
+			  <li class="list-group-item mylist1">Other</li>
+		  </ul>
+	   </div>
+
+	</div>
+</div>
+
+
+<div class="container">
+    <div class="col-md-12">
+       <div class="col-md-3">
+	      <div class="portfolio">
+		      <img src="image/portfolio-1.jpg" style="width:100%;">
+		  </div>
+	   </div>
+       <div class="col-md-3">
+		  <div class="portfolio">
+		      <img src="image/portfolio-2.jpg"  style="width:100%;">
+		  </div>   
+	   </div>
+       <div class="col-md-3">
+	      <div class="portfolio">
+		      <img src="image/portfolio-3.jpg" style="width:100%;">
+		  </div>	   
+	   </div>
+       <div class="col-md-3">
+	      <div class="portfolio">
+		      <img src="image/portfolio-4.jpg" style="width:100%;">
+		  </div>	   
+	   </div>
+    </div>
+	
+    <div class="col-md-12">
+       <div class="col-md-3">
+	      <div class="portfolio">
+		      <img src="image/portfolio-5.jpg" style="width:100%;">
+		  </div>
+	   </div>
+       <div class="col-md-3">
+		  <div class="portfolio">
+		      <img src="image/portfolio-6.jpg"  style="width:100%;">
+		  </div>   
+	   </div>
+       <div class="col-md-3">
+	      <div class="portfolio">
+		      <img src="image/portfolio-7.jpg" style="width:100%;">
+		  </div>	   
+	   </div>
+       <div class="col-md-3">
+	      <div class="portfolio">
+		      <img src="image/portfolio-8.jpg" style="width:100%;">
+		  </div>	   
+	   </div>
+    </div>  
+</div>
+</section>
+
+<section id="logos">
+ <div class="col-md-12 logos">
+   <!-- <div class="row"> -->
+    <div class="container text-center">
+	   <div class="col-sm-2">
+	       <div class="logo">
+		      <img src="image/logo-1.svg" width = "100%" height = "100%">
+		   </div>
+	   </div>
+	   <div class="col-sm-2">
+	      <div class="logo">
+		  <img src="image/logo-2.svg" width = "100%" height = "100%">
+		  </div>
+	   </div>
+	   <div class="col-sm-2">
+	      <div class="logo">
+		  <img src="image/logo-3.svg" width = "100%" height = "100%">
+	      </div>
+	   </div>
+	   <div class="col-sm-2">
+	      <div class="logo">
+             <img src="image/logo-4.svg" width = "100%" height = "100%">
+	      </div>
+	   </div>
+	   <div class="col-sm-2">
+	      <div class="logo">
+			<img src="image/logo-5.svg" width = "100%" height = "100%">
+	       </div>
+	   </div>
+	   <div class="col-sm-2">
+	        <div class="logo">
+				<img src="image/logo-6.svg" width = "100%" height = "100%">
+	        </div>	   
+	   </div>	   
+	   <!-- </div>	    -->
+	   </div>	   
+</div>		
+</section>
+
+<section id="contact">
+<div class="container text-center">
+  <div class="col-md-12">
+      <div class="mywork">
+	      <h3>CONTACT ME</h3>
+	  </div>
+   </div>
+ <div class="container">  
+		   <div class="col-md-6 martop">
+		<form>
+		  <div class="form-group">
+			<input type="fname" class="form-control" id="name" required="required" placeholder="Your firstName *">
+		  </div>
+		  <div class="form-group martop1">
+		<input type="email" class="form-control" id="email" required="required" placeholder="Your Email *">
+		  </div>
+		</form>
+		   </div>
+		 
+		   <div class="col-md-6 martop">
+		<form>
+		  <div class="form-group">
+			<input type="lname" class="form-control" id="lname" required="required" placeholder="Your LastName *">
+		  </div>
+		  <div class="form-group martop1">
+		<input type="email" class="form-control" id="email" required="required" placeholder="Your Phone">
+		  </div>
+		</form>
+		   </div>
+		   
+	   <div class="col-md-12 martop2">
+		<form>
+		  <div class="form-group">
+             <textarea name="message" placeholder="Message for me *" rows="4" required="required" class="form-control"></textarea>
+		</form>
+		   </div>
+		 
+		  <button type="submit" class="btn btn-default">send message</button> 
+  </div>
+
+</div>
+</section>
+
+<section id="map">
+
+<div class="container-fluid">
+		<div class="location martop1">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.974849310538!2d77.56198361392154!3d12.909337990896747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae157d2d6afb49%3A0xddf3e79e3f419dfe!2sBegin+Skills-+Web+Designing+Development+ReactJS+tally+Digital+Marketing+Course+Training+in+Bangalore!5e0!3m2!1sen!2sin!4v1533816268424" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+</div>
+</section>
+<section id="footer">
+<div class="col-md-6">
+		<div class="container">
+             <div class="myfooter">
+		<div class="list-group">
+		  <a href="#" class="list-group-item myicon-class myicon-class1"><i class="fa fa-facebook fb" aria-hidden="true"></i></a>
+		  <a href="#" class="list-group-item myicon-class myicon-class2"><i class="fa fa-instagram insta" aria-hidden="true"></i></a>
+		  <a href="#" class="list-group-item myicon-class myicon-class3"><i class="fa fa-google-plus gogle" aria-hidden="true"></i></a>
+		  <a href="#" class="list-group-item myicon-class myicon-class4"><i class="fa fa-envelope env" aria-hidden="true"></i></a>
+		</div>	 
+						   
+				   
+				   
+				   
+			 </div>
+		</div>
+</div>
+<div class="container">
+<div class="col-md-6 text-right">
+   <p style="color:#fff;font-family:'Roboto Slab',serif;">© 2018 Your name goes here. All rights reserved.</p>
+</div>
+</div>
+</section>
+
+
+
+
+
+</body>
+
+</html>
